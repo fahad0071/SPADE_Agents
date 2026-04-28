@@ -1,5 +1,3 @@
-"""Entry point for the Group 95 SPADE immigration assistant prototype."""
-
 from __future__ import annotations
 
 import asyncio
