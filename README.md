@@ -53,13 +53,6 @@ DOCUMENT_PASSWORD=password
 DEMO_CASE=issue
 ```
 
-Notes:
-
-- Replace the placeholder values with working XMPP credentials on your server.
-- `DEMO_CASE=issue` runs the insufficient funds scenario.
-- `DEMO_CASE=success` runs the successful submission scenario.
-- If your XMPP server does not allow auto-registration, create the accounts manually first.
-
 ## Local Prosody option
 
 This project also includes a lightweight local Prosody setup under [`xmpp/`](./xmpp). It is useful for demos and screenshots on a single machine.
@@ -76,9 +69,6 @@ Then run the SPADE agents in a second terminal:
 ./run_issue_demo.sh
 ```
 
-The bundled local Prosody config uses the `localhost` domain and is intended only for this course prototype.
-The `lua-unbound` message printed by Prosody on startup is only a warning and can be ignored for this assignment demo.
-
 ## How to run
 
 From this folder:
@@ -87,7 +77,7 @@ From this folder:
 ./run_issue_demo.sh
 ```
 
-Optional successful scenario:
+successful scenario:
 
 ```bash
 ./run_success_demo.sh
@@ -104,7 +94,6 @@ SPADE GUI success scenario:
 ```bash
 ./run_success_demo_gui.sh
 ```
-
 
 
 ## SPADE web GUI
@@ -126,7 +115,6 @@ For the recommended issue scenario, the console should show:
 - A document verification result showing insufficient funds.
 - A final decision that the application is not ready for submission.
 
-For the optional success scenario, the final decision should say that the application is ready for submission.
 
 ## Suggested screenshot flow
 
