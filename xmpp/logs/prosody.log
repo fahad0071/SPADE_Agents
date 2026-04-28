@@ -1,0 +1,241 @@
+Apr 28 02:48:09 startup	info	Hello and welcome to Prosody version 0.12.1
+Apr 28 02:48:09 startup	info	Prosody is using the epoll backend for connection handling
+Apr 28 02:48:09 mod_posix	error	Couldn't write pidfile at /Users/fahadzahid/Downloads/agent_tech_/group_95_second_project/xmpp/data/xmpp/prosody.pid; /Users/fahadzahid/Downloads/agent_tech_/group_95_second_project/xmpp/data/xmpp/prosody.pid: No such file or directory
+Apr 28 02:48:09 startup	info	Shutting down: Couldn't write pidfile
+Apr 28 02:48:09 portmanager	error	Failed to open server port 5269 on 127.0.0.1, Operation not permitted
+Apr 28 02:48:09 portmanager	error	Failed to open server port 5269 on ::1, Operation not permitted
+Apr 28 02:48:09 portmanager	info	Activated service 's2s' on no ports
+Apr 28 02:48:09 portmanager	info	Activated service 's2s_direct_tls' on no ports
+Apr 28 02:48:09 portmanager	error	Failed to open server port 5222 on 127.0.0.1, Operation not permitted
+Apr 28 02:48:09 portmanager	error	Failed to open server port 5222 on ::1, Operation not permitted
+Apr 28 02:48:09 portmanager	info	Activated service 'c2s' on no ports
+Apr 28 02:48:09 portmanager	info	Activated service 'c2s_direct_tls' on no ports
+Apr 28 02:48:09 portmanager	info	Activated service 'legacy_ssl' on no ports
+Apr 28 02:48:10 general	info	Shutting down...
+Apr 28 02:48:10 general	info	Shutdown status: Cleaning up
+Apr 28 02:48:10 general	info	Shutdown complete
+Apr 28 02:49:12 startup	info	Hello and welcome to Prosody version 0.12.1
+Apr 28 02:49:12 startup	info	Prosody is using the epoll backend for connection handling
+Apr 28 02:49:12 portmanager	info	Activated service 'c2s' on [::1]:5222, [127.0.0.1]:5222
+Apr 28 02:49:12 portmanager	info	Activated service 'c2s_direct_tls' on no ports
+Apr 28 02:49:12 portmanager	info	Activated service 'legacy_ssl' on no ports
+Apr 28 02:49:12 portmanager	info	Activated service 's2s' on no ports
+Apr 28 02:49:12 portmanager	info	Activated service 's2s_direct_tls' on no ports
+Apr 28 02:50:13 c2s12cd4ea90	info	Client connected
+Apr 28 02:50:13 c2s12cd4ea90	info	Client disconnected: connection closed
+Apr 28 02:50:13 c2s12c8831d0	info	Client connected
+Apr 28 02:50:13 c2s12c8831d0	info	Client disconnected: connection closed
+Apr 28 02:53:33 c2s12b6b70c0	info	Client connected
+Apr 28 02:53:33 c2s12b6b70c0	info	Client disconnected: connection closed
+Apr 28 02:53:33 c2s12cd4e900	info	Client connected
+Apr 28 02:53:33 c2s12cd4e900	info	Authenticated as eligibility@localhost
+Apr 28 02:53:33 c2s12c976df0	info	Client connected
+Apr 28 02:53:33 c2s12c976df0	info	Client disconnected: connection closed
+Apr 28 02:53:33 c2s12ca18230	info	Client connected
+Apr 28 02:53:33 c2s12ca18230	info	Authenticated as document@localhost
+Apr 28 02:53:33 c2s12b70a5e0	info	Client connected
+Apr 28 02:53:33 c2s12b70a5e0	info	Client disconnected: connection closed
+Apr 28 02:53:33 c2s12c889c30	info	Client connected
+Apr 28 02:53:33 c2s12c889c30	info	Authenticated as orchestrator@localhost
+Apr 28 02:53:34 c2s12c889c30	info	Client disconnected: connection closed
+Apr 28 02:53:34 c2s12cd4e900	info	Client disconnected: connection closed
+Apr 28 02:53:34 c2s12ca18230	info	Client disconnected: connection closed
+Apr 28 02:53:45 mod_posix	info	Received SIGINT
+Apr 28 02:53:45 startup	info	Shutting down: Received SIGINT
+Apr 28 02:53:45 portmanager	info	Deactivated service 'c2s'
+Apr 28 02:53:45 portmanager	info	Deactivated service 'c2s_direct_tls'
+Apr 28 02:53:45 portmanager	info	Deactivated service 'legacy_ssl'
+Apr 28 02:53:45 portmanager	info	Deactivated service 's2s'
+Apr 28 02:53:45 portmanager	info	Deactivated service 's2s_direct_tls'
+Apr 28 02:53:45 general	info	Shutting down...
+Apr 28 02:53:45 general	info	Shutdown status: Cleaning up
+Apr 28 02:53:45 general	info	Shutdown complete
+Apr 28 02:55:46 startup	info	Hello and welcome to Prosody version 0.12.1
+Apr 28 02:55:46 startup	info	Prosody is using the epoll backend for connection handling
+Apr 28 02:55:46 portmanager	info	Activated service 's2s' on no ports
+Apr 28 02:55:46 portmanager	info	Activated service 's2s_direct_tls' on no ports
+Apr 28 02:55:46 portmanager	info	Activated service 'c2s' on [127.0.0.1]:5222, [::1]:5222
+Apr 28 02:55:46 portmanager	info	Activated service 'c2s_direct_tls' on no ports
+Apr 28 02:55:46 portmanager	info	Activated service 'legacy_ssl' on no ports
+Apr 28 02:56:11 c2s15063fb10	info	Client connected
+Apr 28 02:56:11 c2s15063fb10	info	Client disconnected: connection closed
+Apr 28 02:56:11 c2s150665640	info	Client connected
+Apr 28 02:56:11 c2s150665640	info	Authenticated as eligibility@localhost
+Apr 28 02:56:11 c2s151086370	info	Client connected
+Apr 28 02:56:11 c2s151086370	info	Client disconnected: connection closed
+Apr 28 02:56:11 c2s1510930a0	info	Client connected
+Apr 28 02:56:11 c2s1510930a0	info	Authenticated as document@localhost
+Apr 28 02:56:11 c2s15136f3b0	info	Client connected
+Apr 28 02:56:11 c2s15136f3b0	info	Client disconnected: connection closed
+Apr 28 02:56:11 c2s15136c920	info	Client connected
+Apr 28 02:56:11 c2s15136c920	info	Authenticated as orchestrator@localhost
+Apr 28 02:56:12 c2s15136c920	info	Client disconnected: connection closed
+Apr 28 02:56:12 c2s150665640	info	Client disconnected: connection closed
+Apr 28 02:56:12 c2s1510930a0	info	Client disconnected: connection closed
+Apr 28 03:02:45 mod_posix	info	Received SIGINT
+Apr 28 03:02:45 startup	info	Shutting down: Received SIGINT
+Apr 28 03:02:45 portmanager	info	Deactivated service 'c2s'
+Apr 28 03:02:45 portmanager	info	Deactivated service 'c2s_direct_tls'
+Apr 28 03:02:45 portmanager	info	Deactivated service 'legacy_ssl'
+Apr 28 03:02:45 portmanager	info	Deactivated service 's2s'
+Apr 28 03:02:45 portmanager	info	Deactivated service 's2s_direct_tls'
+Apr 28 03:02:45 general	info	Shutting down...
+Apr 28 03:02:45 general	info	Shutdown status: Cleaning up
+Apr 28 03:02:45 general	info	Shutdown complete
+Apr 28 03:03:03 startup	info	Hello and welcome to Prosody version 0.12.1
+Apr 28 03:03:03 startup	info	Prosody is using the epoll backend for connection handling
+Apr 28 03:03:03 portmanager	info	Activated service 's2s' on no ports
+Apr 28 03:03:03 portmanager	info	Activated service 's2s_direct_tls' on no ports
+Apr 28 03:03:04 portmanager	info	Activated service 'c2s' on [127.0.0.1]:5222, [::1]:5222
+Apr 28 03:03:04 portmanager	info	Activated service 'c2s_direct_tls' on no ports
+Apr 28 03:03:04 portmanager	info	Activated service 'legacy_ssl' on no ports
+Apr 28 03:03:20 c2s14dee5360	info	Client connected
+Apr 28 03:03:20 c2s14dee5360	info	Client disconnected: connection closed
+Apr 28 03:03:20 c2s14df75f20	info	Client connected
+Apr 28 03:03:20 c2s14df75f20	info	Authenticated as eligibility@localhost
+Apr 28 03:03:20 c2s14f05a420	info	Client connected
+Apr 28 03:03:20 c2s14f05a420	info	Client disconnected: connection closed
+Apr 28 03:03:20 c2s14dee4e30	info	Client connected
+Apr 28 03:03:20 c2s14dee4e30	info	Authenticated as document@localhost
+Apr 28 03:03:20 c2s14df5e2a0	info	Client connected
+Apr 28 03:03:20 c2s14df5e2a0	info	Client disconnected: connection closed
+Apr 28 03:03:20 c2s14f057d80	info	Client connected
+Apr 28 03:03:20 c2s14f057d80	info	Authenticated as orchestrator@localhost
+Apr 28 03:03:21 c2s14f057d80	info	Client disconnected: connection closed
+Apr 28 03:03:21 c2s14df75f20	info	Client disconnected: connection closed
+Apr 28 03:03:21 c2s14dee4e30	info	Client disconnected: connection closed
+Apr 28 03:25:39 c2s14f059650	info	Client connected
+Apr 28 03:25:39 c2s14f059650	info	Client disconnected: connection closed
+Apr 28 03:25:39 c2s14f05c190	info	Client connected
+Apr 28 03:25:39 c2s14f05c190	info	Authenticated as eligibility@localhost
+Apr 28 03:25:39 c2s14f057ba0	info	Client connected
+Apr 28 03:25:39 c2s14f057ba0	info	Client disconnected: connection closed
+Apr 28 03:25:39 c2s14f05c860	info	Client connected
+Apr 28 03:25:39 c2s14f05c860	info	Authenticated as document@localhost
+Apr 28 03:25:39 c2s14ded2480	info	Client connected
+Apr 28 03:25:39 c2s14ded2480	info	Client disconnected: connection closed
+Apr 28 03:25:39 c2s14dede800	info	Client connected
+Apr 28 03:25:39 c2s14dede800	info	Authenticated as orchestrator@localhost
+Apr 28 03:25:40 c2s14dede800	info	Client disconnected: connection closed
+Apr 28 03:25:40 c2s14f05c190	info	Client disconnected: connection closed
+Apr 28 03:25:40 c2s14f05c860	info	Client disconnected: connection closed
+Apr 28 10:32:37 c2s14f226390	info	Client connected
+Apr 28 10:32:37 c2s14f226390	info	Client disconnected: connection closed
+Apr 28 10:32:37 c2s14dee6030	info	Client connected
+Apr 28 10:32:37 c2s14dee6030	info	Authenticated as eligibility@localhost
+Apr 28 10:32:37 c2s14df67130	info	Client connected
+Apr 28 10:32:37 c2s14df67130	info	Client disconnected: connection closed
+Apr 28 10:32:37 c2s14df839e0	info	Client connected
+Apr 28 10:32:37 c2s14df839e0	info	Authenticated as document@localhost
+Apr 28 10:32:37 c2s14df6c5e0	info	Client connected
+Apr 28 10:32:37 c2s14df6c5e0	info	Client disconnected: connection closed
+Apr 28 10:32:37 c2s14dee4630	info	Client connected
+Apr 28 10:32:37 c2s14dee4630	info	Authenticated as orchestrator@localhost
+Apr 28 10:32:39 c2s14dee4630	info	Client disconnected: connection closed
+Apr 28 10:32:39 c2s14dee6030	info	Client disconnected: connection closed
+Apr 28 10:32:39 c2s14df839e0	info	Client disconnected: connection closed
+Apr 28 10:34:46 c2s14df74720	info	Client connected
+Apr 28 10:34:46 c2s14df74720	info	Client disconnected: connection closed
+Apr 28 10:34:46 c2s14df6d1b0	info	Client connected
+Apr 28 10:34:46 c2s14df6d1b0	info	Authenticated as eligibility@localhost
+Apr 28 10:34:46 c2s14f062880	info	Client connected
+Apr 28 10:34:46 c2s14f062880	info	Client disconnected: connection closed
+Apr 28 10:34:46 c2s14f26f0d0	info	Client connected
+Apr 28 10:34:46 c2s14f26f0d0	info	Authenticated as document@localhost
+Apr 28 10:34:46 c2s14dee4be0	info	Client connected
+Apr 28 10:34:46 c2s14dee4be0	info	Client disconnected: connection closed
+Apr 28 10:34:46 c2s14dee64f0	info	Client connected
+Apr 28 10:34:46 c2s14dee64f0	info	Authenticated as orchestrator@localhost
+Apr 28 10:35:01 c2s14dee64f0	info	Client disconnected: connection closed
+Apr 28 10:35:01 c2s14df6d1b0	info	Client disconnected: connection closed
+Apr 28 10:35:01 c2s14f26f0d0	info	Client disconnected: connection closed
+Apr 28 10:36:03 c2s14df7cdf0	info	Client connected
+Apr 28 10:36:03 c2s14df7cdf0	info	Client disconnected: connection closed
+Apr 28 10:36:03 c2s14df7b350	info	Client connected
+Apr 28 10:36:04 c2s14df7b350	info	Authenticated as eligibility@localhost
+Apr 28 10:36:04 c2s14df64d10	info	Client connected
+Apr 28 10:36:04 c2s14df64d10	info	Client disconnected: connection closed
+Apr 28 10:36:04 c2s14df71f70	info	Client connected
+Apr 28 10:36:04 c2s14df71f70	info	Authenticated as document@localhost
+Apr 28 10:36:04 c2s14f27e840	info	Client connected
+Apr 28 10:36:04 c2s14f27e840	info	Client disconnected: connection closed
+Apr 28 10:36:04 c2s14f27f590	info	Client connected
+Apr 28 10:36:04 c2s14f27f590	info	Authenticated as orchestrator@localhost
+Apr 28 10:36:34 c2s14f27f590	info	Client disconnected: connection closed
+Apr 28 10:36:34 c2s14df7b350	info	Client disconnected: connection closed
+Apr 28 10:36:34 c2s14df71f70	info	Client disconnected: connection closed
+Apr 28 10:39:54 c2s14f21be10	info	Client connected
+Apr 28 10:39:54 c2s14f21be10	info	Client disconnected: connection closed
+Apr 28 10:39:54 c2s14dee6440	info	Client connected
+Apr 28 10:39:54 c2s14dee6440	info	Authenticated as eligibility@localhost
+Apr 28 10:39:54 c2s14f291fe0	info	Client connected
+Apr 28 10:39:54 c2s14f291fe0	info	Client disconnected: connection closed
+Apr 28 10:39:54 c2s14f059090	info	Client connected
+Apr 28 10:39:54 c2s14f059090	info	Authenticated as document@localhost
+Apr 28 10:39:54 c2s14f280730	info	Client connected
+Apr 28 10:39:54 c2s14f280730	info	Client disconnected: connection closed
+Apr 28 10:39:54 c2s14dede8e0	info	Client connected
+Apr 28 10:39:54 c2s14dede8e0	info	Authenticated as orchestrator@localhost
+Apr 28 10:40:02 c2s14dede8e0	info	Client disconnected: connection closed
+Apr 28 10:40:02 c2s14dee6440	info	Client disconnected: connection closed
+Apr 28 10:40:02 c2s14f059090	info	Client disconnected: connection closed
+Apr 28 10:40:17 c2s14dec10c0	info	Client connected
+Apr 28 10:40:17 c2s14dec10c0	info	Client disconnected: connection closed
+Apr 28 10:40:17 c2s14f284b10	info	Client connected
+Apr 28 10:40:17 c2s14f284b10	info	Authenticated as eligibility@localhost
+Apr 28 10:40:17 c2s14dedabf0	info	Client connected
+Apr 28 10:40:17 c2s14dedabf0	info	Client disconnected: connection closed
+Apr 28 10:40:17 c2s14ded44e0	info	Client connected
+Apr 28 10:40:17 c2s14ded44e0	info	Authenticated as document@localhost
+Apr 28 10:40:17 c2s14df7c9c0	info	Client connected
+Apr 28 10:40:17 c2s14df7c9c0	info	Client disconnected: connection closed
+Apr 28 10:40:17 c2s14df75f20	info	Client connected
+Apr 28 10:40:17 c2s14df75f20	info	Authenticated as orchestrator@localhost
+Apr 28 10:40:25 c2s14df75f20	info	Client disconnected: connection closed
+Apr 28 10:40:25 c2s14f284b10	info	Client disconnected: connection closed
+Apr 28 10:40:25 c2s14ded44e0	info	Client disconnected: connection closed
+Apr 28 10:41:24 c2s14df76530	info	Client connected
+Apr 28 10:41:24 c2s14df76530	info	Client disconnected: connection closed
+Apr 28 10:41:24 c2s14f05ed00	info	Client connected
+Apr 28 10:41:24 c2s14f05ed00	info	Authenticated as eligibility@localhost
+Apr 28 10:41:24 c2s13df05670	info	Client connected
+Apr 28 10:41:24 c2s13df05670	info	Client disconnected: connection closed
+Apr 28 10:41:24 c2s14f285890	info	Client connected
+Apr 28 10:41:24 c2s14f285890	info	Authenticated as document@localhost
+Apr 28 10:41:24 c2s14df81180	info	Client connected
+Apr 28 10:41:24 c2s14df81180	info	Client disconnected: connection closed
+Apr 28 10:41:24 c2s14f28fd80	info	Client connected
+Apr 28 10:41:24 c2s14f28fd80	info	Authenticated as orchestrator@localhost
+Apr 28 10:43:21 c2s14f28fd80	info	Client disconnected: connection closed
+Apr 28 10:43:21 c2s14f05ed00	info	Client disconnected: connection closed
+Apr 28 10:43:21 c2s14f285890	info	Client disconnected: connection closed
+Apr 28 10:44:03 c2s14f10b8e0	info	Client connected
+Apr 28 10:44:03 c2s14f10b8e0	info	Client disconnected: connection closed
+Apr 28 10:44:03 c2s14f110840	info	Client connected
+Apr 28 10:44:04 c2s14f110840	info	Authenticated as eligibility@localhost
+Apr 28 10:44:04 c2s14f30f8f0	info	Client connected
+Apr 28 10:44:04 c2s14f30f8f0	info	Client disconnected: connection closed
+Apr 28 10:44:04 c2s14f059030	info	Client connected
+Apr 28 10:44:04 c2s14f059030	info	Authenticated as document@localhost
+Apr 28 10:44:04 c2s14f1125a0	info	Client connected
+Apr 28 10:44:04 c2s14f1125a0	info	Client disconnected: connection closed
+Apr 28 10:44:04 c2s14f30ffe0	info	Client connected
+Apr 28 10:44:04 c2s14f30ffe0	info	Authenticated as orchestrator@localhost
+Apr 28 10:45:33 c2s14f30ffe0	info	Client disconnected: connection closed
+Apr 28 10:45:33 c2s14f110840	info	Client disconnected: connection closed
+Apr 28 10:45:33 c2s14f059030	info	Client disconnected: connection closed
+Apr 28 10:45:50 c2s14f112540	info	Client connected
+Apr 28 10:45:50 c2s14f112540	info	Client disconnected: connection closed
+Apr 28 10:45:50 c2s13df092f0	info	Client connected
+Apr 28 10:45:50 c2s13df092f0	info	Authenticated as eligibility@localhost
+Apr 28 10:45:51 c2s14f115a30	info	Client connected
+Apr 28 10:45:51 c2s14f115a30	info	Client disconnected: connection closed
+Apr 28 10:45:51 c2s14f117400	info	Client connected
+Apr 28 10:45:51 c2s14f117400	info	Authenticated as document@localhost
+Apr 28 10:45:51 c2s14f059490	info	Client connected
+Apr 28 10:45:51 c2s14f059490	info	Client disconnected: connection closed
+Apr 28 10:45:51 c2s14f30db30	info	Client connected
+Apr 28 10:45:51 c2s14f30db30	info	Authenticated as orchestrator@localhost
+Apr 28 10:47:51 c2s14f30db30	info	Client disconnected: connection closed
+Apr 28 10:47:51 c2s13df092f0	info	Client disconnected: connection closed
+Apr 28 10:47:51 c2s14f117400	info	Client disconnected: connection closed
