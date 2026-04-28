@@ -105,18 +105,7 @@ SPADE GUI success scenario:
 ./run_success_demo_gui.sh
 ```
 
-Manual alternative:
 
-```bash
-source .venv/bin/activate
-DEMO_CASE=success python main.py
-```
-
-The normal terminal demo keeps the agents alive for 8 seconds after the final decision. To change this pause:
-
-```bash
-POST_RUN_HOLD_SECONDS=20 DEMO_CASE=issue python main.py
-```
 
 ## SPADE web GUI
 
@@ -126,11 +115,6 @@ The GUI mode starts SPADE's built-in web interface for each agent:
 - EligibilityAgent: `http://127.0.0.1:10001/spade`
 - DocumentAgent: `http://127.0.0.1:10002/spade`
 
-The GUI run keeps the agents alive for 120 seconds after the workflow completes so there is time to open the pages, inspect behaviours, and take screenshots. You can change this with:
-
-```bash
-SPADE_GUI=true SPADE_GUI_HOLD_SECONDS=300 DEMO_CASE=issue python main.py
-```
 
 ## Expected output
 
